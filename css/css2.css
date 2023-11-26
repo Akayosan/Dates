@@ -1,0 +1,17 @@
+/* Define the @font-face rule to load the custom font */
+@font-face {
+  font-family: 'Mokoto';
+  src: url('static/font/mokoto.regular.ttf') format('truetype'); /* Replace 'path/to/' with the actual path to your font file */
+}
+
+/* Apply the custom font to elements */
+body {
+  font-family: 'Mokoto', sans-serif; /* Use 'Mokoto' as the font family, and fallback to a generic sans-serif font if it's not available */
+}
+
+/* You can apply the font to specific elements as needed */
+h1, h2, p {
+  font-family: 'Mokoto', sans-serif;
+}
+
+/* Additional styling for specific elements can be added here */
